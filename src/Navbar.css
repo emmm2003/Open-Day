@@ -1,0 +1,61 @@
+/* CSS styling for the navbar */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 3px solid grey;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-bottom: 3px solid grey;
+}
+
+.search {
+  float: right;
+  padding-right: 100px;
+}
+
+.search_icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.search {
+  float: right;
+  padding: 6px;
+  margin-right: 16px;
+}
+
+.search input {
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 6px;
+  width: 250px;
+}
